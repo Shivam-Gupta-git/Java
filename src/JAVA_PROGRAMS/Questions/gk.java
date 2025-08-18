@@ -1,4 +1,4 @@
-package JAVA_PROGRAMS.one;
+package JAVA_PROGRAMS.Questions;
 
 public class gk {
 }
