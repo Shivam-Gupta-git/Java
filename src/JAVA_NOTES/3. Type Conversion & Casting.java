@@ -14,6 +14,6 @@
 // -> type casting = type casting is changing a variable one data type to another data type . but java can't be allow.
 //    type casting is a type of narrowing or explicit conversion.
 
-// Type Promotion in Expression.............
+// Type Promotion in Expression................
 // -> java automatically promotes each byte, short, or char operand into int.
 // -> If one operand is long, float, double the whole expression is converted in long, float, double.
