@@ -62,5 +62,94 @@ public class Mathematical_Q {
 //       String result = (marks >= 33) ? "Pass" : "Fail";
 //       System.out.println(result);
 
+//  Q. Print numbers from 1 to 10 using while loop.
+//       int i = 1;
+//       while (i <= 10){
+//           System.out.println(i);
+//           i++;
+//       }
+//  Q. Sum of first 5 natural numbers using while loop
+//       int i = 1;
+//       int sum = 0;
+//       while (i <= 5){
+//           sum += i;
+//           i++;
+//       }
+//        System.out.println(sum);
+
+//  Q. Reverse digits of a number
+//        int number = 12, reverse = 0;
+//        while (number != 0) {
+//            int digit = number % 10;
+//            reverse = reverse * 10 + digit;
+//            number /= 10;
+//        }
+//        System.out.println("Reversed Number: " + reverse);
+
+//  Q. Print multiplication table of 5
+//        System.out.println("Please enter your number to want to print a table: ");
+//        int num = sc.nextInt();
+//        int i = 1;
+//        int multi;
+//        while (i <= 10) {
+//            multi = i * num;
+//            System.out.println(num + " * " + i + " = " + multi);
+//            i++;
+//        }
+
+//  Q. Sum of first n natural numbers using while loop
+//        System.out.println("Please enter your number: ");
+//        int num = sc.nextInt();
+//        int i = 1;
+//        int sum = 0;
+//        while (i <= num){
+//            sum += i;
+//            i++;
+//        }
+//        System.out.println("Sum of your number " + num + " is: " +sum);
+
+//  Q. take a number from the user and check if a number is Prime or not.
+//        System.out.println("Please enter your number: ");
+//        int num = sc.nextInt();
+//        if(num == 2){
+//            System.out.println(num + " is a Prime number");
+//        }else {
+//            boolean isPrime = true;
+//            for (int i = 2; i <= Math.sqrt(num); i++){
+//                if(num % i == 0){
+//                    isPrime = false;
+//                }
+//            }
+//            if(isPrime == true){
+//                System.out.println(num + " is a Prime number");
+//            }else {
+//                System.out.println(num + " is not a Prime number");
+//            }
+//        }
+
+//  Q.  How many times 'Hello' is printed?
+
+//        for (int i = 0; i < 5; i++) {
+//            System.out.println("Hello");
+//            i += 2;
+//        }
+//  Q. Write a program that reads a set of integers, and then prints the sum of the
+//     even and odd integers.
+        System.out.println("Please enter your number: ");
+        int number = sc.nextInt();
+        int sumOfEven = 0;
+        int sumOfOdd = 0;
+        for (int i = 1; i <= number; i++){
+            System.out.print("Enter integer " + i + ": ");
+            int num = sc.nextInt();
+            if(num % 2 == 0){
+               sumOfEven += num;
+            }else {
+                sumOfOdd += num;
+            }
+        }
+        System.out.println("even: "+sumOfEven);
+        System.out.println("odd: "+sumOfOdd);
+
     }
 }

@@ -37,19 +37,20 @@ public class conditionalStatement_8 {
 //        System.out.println(result);
 
 //  ->  switch case..........
-        int num = 2;
-        switch (num){
-            case 1:
-                System.out.println("samosa");
-                break;
-            case 2:
-                System.out.println("burger");
-                break;
-            case 3:
-                System.out.println("mango shake");
-                break;
-            default:
-                System.out.println("we wake up");
-        }
+//        int num = 2;
+//        switch (num){
+//            case 1:
+//                System.out.println("samosa");
+//                break;
+//            case 2:
+//                System.out.println("burger");
+//                break;
+//            case 3:
+//                System.out.println("mango shake");
+//                break;
+//            default:
+//                System.out.println("we wake up");
+//        }
+
     }
 }
