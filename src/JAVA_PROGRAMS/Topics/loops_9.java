@@ -2,7 +2,7 @@ package JAVA_PROGRAMS.Topics;
 
 import java.util.Scanner;
 
-public class loops_8 {
+public class loops_9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -111,23 +111,23 @@ public class loops_8 {
 //    }while (true);
 
 //  Prime or not
-        System.out.println("Please enter your number: ");
-        int num = sc.nextInt();
-        if(num == 2){
-            System.out.println(num + " is a Prime number");
-        }else {
-            boolean isPrime = true;
-            for (int i = 2; i < Math.sqrt(num); i++){
-                if(num % i == 0){
-                    isPrime = false;
-                }
-            }
-            if(isPrime == true){
-                System.out.println(num + " is a Prime number");
-            }else {
-                System.out.println(num + " is not a Prime number");
-            }
-        }
+//        System.out.println("Please enter your number: ");
+//        int num = sc.nextInt();
+//        if(num == 2){
+//            System.out.println(num + " is a Prime number");
+//        }else {
+//            boolean isPrime = true;
+//            for (int i = 2; i < Math.sqrt(num); i++){
+//                if(num % i == 0){
+//                    isPrime = false;
+//                }
+//            }
+//            if(isPrime == true){
+//                System.out.println(num + " is a Prime number");
+//            }else {
+//                System.out.println(num + " is not a Prime number");
+//            }
+//        }
 
     }
 }

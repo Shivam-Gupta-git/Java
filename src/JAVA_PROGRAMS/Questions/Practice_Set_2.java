@@ -1,6 +1,6 @@
 package JAVA_PROGRAMS.Questions;
 
-public class Practice_Set_6 {
+public class Practice_Set_2 {
     public static void main(String[] args) {
 //     Q. what will be the output of the following program.
 //        int x = 2;

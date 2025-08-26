@@ -135,21 +135,50 @@ public class Mathematical_Q {
 //        }
 //  Q. Write a program that reads a set of integers, and then prints the sum of the
 //     even and odd integers.
-        System.out.println("Please enter your number: ");
-        int number = sc.nextInt();
-        int sumOfEven = 0;
-        int sumOfOdd = 0;
-        for (int i = 1; i <= number; i++){
-            System.out.print("Enter integer " + i + ": ");
-            int num = sc.nextInt();
-            if(num % 2 == 0){
-               sumOfEven += num;
-            }else {
-                sumOfOdd += num;
-            }
-        }
-        System.out.println("even: "+sumOfEven);
-        System.out.println("odd: "+sumOfOdd);
+//        System.out.println("Please enter your number: ");
+//        int number = sc.nextInt();
+//        int sumOfEven = 0;
+//        int sumOfOdd = 0;
+//        for (int i = 1; i <= number; i++){
+//            System.out.print("Enter integer " + i + ": ");
+//            int num = sc.nextInt();
+//            if(num % 2 == 0){
+//               sumOfEven += num;
+//            }else {
+//                sumOfOdd += num;
+//            }
+//        }
+//        System.out.println("even: "+sumOfEven);
+//        System.out.println("odd: "+sumOfOdd);
+
+//  Q.  Sum of two integer values
+//        int a = 13;
+//        int b = 23;
+//        int sum = a + b;
+//        System.out.println(sum);
+
+//  Q.  Sum of two floating values
+//        float num1 = 12.5F;
+//        float num2 = 21.1F;
+//        float sumOfNumber = num1 + num2;
+//        System.out.println(sumOfNumber);
+
+//  Q.    take two integer input value from the user and calculate the sum.
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        int sum = a + b;
+//        System.out.println(sum);
+
+//  Q.    take two integer input value from the user and calculate the product.
+//        int num1 = sc.nextInt();
+//        int num2 = sc.nextInt();
+//        int product = num1 * num2;
+//        System.out.println(product);
+
+//  Q.    take input value from the user and calculate the area of circle.
+//          float radius = sc.nextFloat();
+//          double radiusOfCircle = Math.round(Math.PI * radius * radius);
+//          System.out.println(radiusOfCircle);
 
     }
 }

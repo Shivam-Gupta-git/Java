@@ -2,7 +2,7 @@ package JAVA_PROGRAMS.Questions;
 
 import java.util.Scanner;
 
-public class Practice_Set_8 {
+public class Practice_Set_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
