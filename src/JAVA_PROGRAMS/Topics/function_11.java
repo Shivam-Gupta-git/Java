@@ -95,6 +95,56 @@ public class function_11 {
 //    }
 
 //  -> Print all Prime in a range
+//    public static boolean primeNum(int num){
+//        boolean isPrime = true;
+//        if(num == 2){
+//            isPrime = true;
+//        }else {
+//            for (int i = 2; i <= Math.sqrt(num); i++){
+//                if(num % i == 0){
+//                    isPrime = false;
+//                }
+//            }
+//        }
+//        return isPrime;
+//    }
+//    public static void primeRange(int num){
+//        for (int i = 1; i <= num; i++){
+//            if(primeNum(i)){
+//                System.out.print(i + " ");
+//            }
+//        }
+//        System.out.println();
+//    }
+
+
+//  -> Convert from binary to decimal
+//    public static void binary(int num){
+//     int myNum = num;
+//     int pow = 0;
+//     int decimalNum = 0;
+//     while (num > 0){
+//         int lastNum = num % 10;
+//         decimalNum = decimalNum + (int) (lastNum * Math.pow(2, pow));
+//         pow ++;
+//         num /= 10;
+//     }
+//        System.out.println("decimal of " + myNum + " = " + decimalNum);
+//    }
+
+//  -> Convert from decimal to binary
+       public static void decimal(int num){
+           int myNum = num;
+           int pow = 0;
+           int binaryNum = 0;
+           while (num > 0){
+               int lastNum = num % 2;
+               binaryNum = binaryNum + (int) (lastNum * Math.pow(10, pow));
+               pow ++;
+               num /= 2;
+           }
+           System.out.println("binary of " + myNum + " = " + binaryNum);
+       }
 
 
 public static void main(String[] args) {
@@ -153,6 +203,14 @@ public static void main(String[] args) {
 //  -> check if a number is prime or not
 //    System.out.println(primeNum(7));
 
+//  -> Print all Prime in a range
+//     primeRange(10);
+
+//  -> Convert from binary to decimal
+//     binary(1010101);
+
+//  -> Convert from decimal to binary
+       decimal(5);
 }
 }
 
