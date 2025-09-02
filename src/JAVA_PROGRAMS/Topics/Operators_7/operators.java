@@ -1,7 +1,11 @@
-package JAVA_PROGRAMS.Topics;
+package JAVA_PROGRAMS.Topics.Operators_7;
 
-public class operators_7 {
+import java.util.Scanner;
+
+public class operators {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
 //      Arithmetic Operators........
 //  ->  Binary operator.
 //        int num1 = 5;
@@ -64,7 +68,6 @@ public class operators_7 {
 //        System.out.println(a *= 3);
 //        System.out.println(a /= 4);
 //        System.out.println(a %= 5);
-
 
     }
 }

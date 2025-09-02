@@ -1,11 +1,10 @@
-package JAVA_PROGRAMS.Topics;
+package JAVA_PROGRAMS.Topics.Loops_9;
 
 import java.util.Scanner;
 
-public class loops_9 {
+public class Loop {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
 // -> while loop...................
 //        (Initialization)
 //        int i = 1;

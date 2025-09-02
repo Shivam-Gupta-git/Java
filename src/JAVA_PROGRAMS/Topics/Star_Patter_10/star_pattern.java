@@ -1,8 +1,8 @@
-package JAVA_PROGRAMS.Topics;
+package JAVA_PROGRAMS.Topics.Star_Patter_10;
 
-public class starPattern_10 {
+public class star_pattern {
     public static void main(String[] args) {
-//  Star Pattern......
+        //  Star Pattern......
 //  1. lines -> outer loop
 //  2. number of times -> inner loop
 //  3. what to print -> *
@@ -44,15 +44,15 @@ public class starPattern_10 {
 //        }
 
 //  Print Character
-    int num = 5;
-    char ch = 'A';
-    for (int i = 1; i <= num; i++){
-        for (int j = 1; j <= i; j++){
-            System.out.print(ch);
-            ch++;
+        int num = 5;
+        char ch = 'A';
+        for (int i = 1; i <= num; i++){
+            for (int j = 1; j <= i; j++){
+                System.out.print(ch);
+                ch++;
+            }
+            System.out.println();
         }
-        System.out.println();
-    }
 
     }
 }

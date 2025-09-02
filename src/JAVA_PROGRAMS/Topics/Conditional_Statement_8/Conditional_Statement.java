@@ -1,8 +1,8 @@
-package JAVA_PROGRAMS.Topics;
+package JAVA_PROGRAMS.Topics.Conditional_Statement_8;
 
 import java.util.Scanner;
 
-public class conditionalStatement_8 {
+public class Conditional_Statement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -51,6 +51,5 @@ public class conditionalStatement_8 {
 //            default:
 //                System.out.println("we wake up");
 //        }
-
     }
 }

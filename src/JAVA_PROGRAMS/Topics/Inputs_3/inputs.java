@@ -1,9 +1,11 @@
-package JAVA_PROGRAMS.Topics;
-import java.util.*;
+package JAVA_PROGRAMS.Topics.Inputs_3;
 
-public class Inputs_3 {
+import java.util.Scanner;
+
+public class inputs {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
 //        next can be used to take string value only with the words.
 //        String input = sc.next();
 //        System.out.println(input);
