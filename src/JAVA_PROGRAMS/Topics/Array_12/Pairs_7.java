@@ -6,9 +6,9 @@ public class Pairs_7 {
 
         for (int i = 0; i < num.length; i++) {   // fixed loop
             int current = num[i];
-
             for (int j = i + 1; j < num.length; j++) {
-                System.out.print("(" + current + "," + num[j] + ") ");
+               int sum = num[i] + num[j];
+                System.out.print(" (" + current + "," + num[j] + ") "+ "Sum " + "= " + sum );
                 totalPair++;
             }
             System.out.println();
