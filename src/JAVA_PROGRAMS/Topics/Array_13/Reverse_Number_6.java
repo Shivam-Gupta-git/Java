@@ -1,4 +1,4 @@
-package JAVA_PROGRAMS.Topics.Array_12;
+package JAVA_PROGRAMS.Topics.Array_13;
 
 public class Reverse_Number_6 {
     public static void reverseNum (int[] num){

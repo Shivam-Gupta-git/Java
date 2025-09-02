@@ -1,4 +1,4 @@
-package JAVA_PROGRAMS.Topics.Array_12;
+package JAVA_PROGRAMS.Topics.Array_13;
 
 public class Trapped_RainWater_10 {
     public static int trappedRainWater(int[] height){

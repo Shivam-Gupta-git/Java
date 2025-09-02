@@ -1,4 +1,4 @@
-package JAVA_PROGRAMS.Topics.Array_12;
+package JAVA_PROGRAMS.Topics.Array_13;
 
 public class Sub_Array_8 {
     public static void subArray(int[] num){

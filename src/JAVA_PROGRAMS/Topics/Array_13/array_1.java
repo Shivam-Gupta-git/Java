@@ -1,4 +1,4 @@
-package JAVA_PROGRAMS.Topics.Array_12;
+package JAVA_PROGRAMS.Topics.Array_13;
 
 import java.util.Scanner;
 

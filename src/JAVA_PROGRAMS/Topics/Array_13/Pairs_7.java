@@ -1,4 +1,4 @@
-package JAVA_PROGRAMS.Topics.Array_12;
+package JAVA_PROGRAMS.Topics.Array_13;
 
 public class Pairs_7 {
     public static void pairOFNumber(int[] num) {

@@ -1,4 +1,4 @@
-package JAVA_PROGRAMS.Topics.Array_12;
+package JAVA_PROGRAMS.Topics.Array_13;
 
 public class Binary_Search_5 {
 //    Binary Search will be applied in sorted array.

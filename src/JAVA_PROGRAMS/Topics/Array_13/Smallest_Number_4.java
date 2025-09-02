@@ -1,5 +1,4 @@
-package JAVA_PROGRAMS.Topics.Array_12;
-import java.util.*;
+package JAVA_PROGRAMS.Topics.Array_13;
 
 public class Smallest_Number_4 {
     public static int smallestNum(int[] num) {

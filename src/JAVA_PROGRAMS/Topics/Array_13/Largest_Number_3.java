@@ -1,5 +1,4 @@
-package JAVA_PROGRAMS.Topics.Array_12;
-import java.util.*;
+package JAVA_PROGRAMS.Topics.Array_13;
 
 public class Largest_Number_3 {
     public static int largestNum(int[] num){
