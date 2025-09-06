@@ -2,7 +2,17 @@ package JAVA_PROGRAMS.Topics.Array_2D_15;
 
 import java.util.Scanner;
 
-public class Multi_of_Matrices {
+public class Multi_of_Matrices_4 {
+
+//  Print values...........
+    public static void printmatrix(int[][] matrix){
+        for (int i = 0; i < matrix.length; i++){
+            for (int j = 0; j < matrix[i].length; j++){
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
 
 //  Multiply................
     public static void multi(int[][] arr1, int r1, int c1, int[][] arr2, int r2, int c2){
@@ -10,8 +20,16 @@ public class Multi_of_Matrices {
             System.out.println("Wrong Input");
             return;
         }
-        int[][] multi = new int[r1][c1];
-
+        int[][] multi = new int[r1][c2];
+        for (int i = 0; i < r1; i++){
+            for (int j = 0; j < c2; j++){
+                for (int k = 0; k < c1; k++){
+                    multi[i][j] += (arr1[i][k] * arr2[k][j]);
+                }
+            }
+        }
+        System.out.println("Multiplication of matrix one and two is: ");
+        printmatrix(multi);
     }
 //  Take input...............
     public static void main(String[] args) {
@@ -39,5 +57,10 @@ public class Multi_of_Matrices {
                 arr2[i][j] = sc.nextInt();
             }
         }
+        System.out.println("Matrix 1");
+        printmatrix(arr1);
+        System.out.println("Matrix 2");
+        printmatrix(arr2);
+        multi(arr1, r1, c1, arr2, r2, c2);
     }
 }

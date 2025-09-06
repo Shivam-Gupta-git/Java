@@ -2,7 +2,7 @@ package JAVA_PROGRAMS.Topics.Array_2D_15;
 
 import java.util.Scanner;
 
-public class Sum_of_Matrices {
+public class Sum_of_Matrices_3 {
 
     public static void printMatrix(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
