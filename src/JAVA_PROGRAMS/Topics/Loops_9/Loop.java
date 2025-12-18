@@ -66,11 +66,11 @@ public class Loop {
 //        System.out.println(reverse);
 
 //  -> Do while loop................
-//        int i = 0;
-//        do {
-//            System.out.println("hello world");
-//            i++;
-//        }while (i <= 10);
+        int i = 0;
+        do {
+            System.out.println("hello world");
+            i++;
+        }while (i <= 10);
 
 //  -> Break statement.................
 //        for (int i = 1; i <= 5; i++){
@@ -127,6 +127,9 @@ public class Loop {
 //                System.out.println(num + " is not a Prime number");
 //            }
 //        }
+
+
+
 
     }
 }
