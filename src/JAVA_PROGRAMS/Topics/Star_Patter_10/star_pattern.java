@@ -38,13 +38,30 @@ public class star_pattern {
 //        }
 
 // Q. Left-Aligned Triangle..............................
-        int num = 5;
-        for (int i = 0; i < num; i++){
-            for (int j = 1; j <= num; j ++){
+//        int num = 5;
+//        for (int i = 1; i <= num; i++){
+//            for (int j = 1; j <= num - i; j++){
+//                System.out.print(" ");
+//            }
+//            for (int k = 1; k <= i; k++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
 
-            }
-            System.out.println();
-        }
+// Q. Inverted Left-Angle Triangle...........................
+//        int num = 5;
+//        for (int i = num; i >= 1; i--){
+//            for (int j = 1; j <= (num - i); j++){
+//                System.out.print(" ");
+//            }
+//            for (int k = 1; k <= i; k++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+
 
 
 
