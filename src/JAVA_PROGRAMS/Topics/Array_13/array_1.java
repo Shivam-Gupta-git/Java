@@ -45,5 +45,13 @@ public class array_1 {
 //        }
 
 
+        int[] marks = { 22, 11, 43};
+        int i = 0;
+        while (i < marks.length) {
+            int newMarks = marks[i] + 1;
+            System.out.println(newMarks);
+            i++;
+        }
+
     }
 }
