@@ -1,7 +1,7 @@
 package JAVA_PROGRAMS.Topics.Array_13;
 import java.util.Arrays;
 
-public class Rearrange {
+public class Rearrange_array_23 {
     public static void test(int[] num){
         int[] positiveArray = new int[num.length];
         int[] negativeArray = new int[num.length];
