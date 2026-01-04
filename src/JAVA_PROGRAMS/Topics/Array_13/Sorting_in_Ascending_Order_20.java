@@ -1,21 +1,23 @@
 package JAVA_PROGRAMS.Topics.Array_13;
 
+import java.util.Arrays;
+
 public class Sorting_in_Ascending_Order_20 {
-    public static boolean ascending(int[] num){
-        for (int i = 0; i < num.length - 1; i++){
-            if(num[i] > num[i + 1]){
-                return false;
+    public static void SortingInDescending(int[] num){
+        for (int i = 0; i < num.length; i++){
+            for (int j = 1 + i; j < num.length; j++){
+                if(num[i] > num[j]){
+                    int temp = num[i];
+                    num[i] = num[j];
+                    num[j] = temp;
+                }
             }
         }
-        return true;
+        System.out.println(Arrays.toString(num));
     }
+
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5};
-        boolean result = ascending(numbers);
-        if(!result){
-            System.out.println("array 1 is not sorted in ascending order");
-        }else {
-            System.out.println("array 1 is sorted in ascending order");
-        }
+        int[] number = {1, 3, 2, 7};
+        SortingInDescending(number);
     }
 }
