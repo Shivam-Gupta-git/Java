@@ -1,6 +1,7 @@
 package JAVA_PROGRAMS.Topics.Array_13;
 
 import java.util.Arrays;
+//Q. Rotate an array by k positions.
 
 public class K_rotation_26 {
     public static void kRotation(int[] num) {
