@@ -9,9 +9,9 @@ public class K_rotation_26 {
 
         int first = num[position];
         for (int i = position; i > 0; i--) {
-            System.out.println(i);
+//            System.out.println(i);
             num[i] = num[i - 1];
-            System.out.println(num[i]);
+//            System.out.println(num[i]);
         }
         num[0] = first;
         System.out.println(Arrays.toString(num));
